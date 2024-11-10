@@ -12,7 +12,9 @@ if(empty($name)||empty($email)||empty($message))
     echo "Name and email and message are required !";
     header('Location: index.html');
 }
+
 //validate against any email injection attempts
+
 if(IsInjected($email))
 {
     echo "Bad email value!";
