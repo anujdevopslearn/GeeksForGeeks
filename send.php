@@ -77,3 +77,5 @@ function IsInjected($str)
 }
    
 ?>
+function1(){
+}
